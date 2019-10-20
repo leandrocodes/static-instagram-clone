@@ -19,7 +19,6 @@ body {
 }
 
 .profile-header .pic {
-  background: radial-gradient(circle at 30% 100%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #2855da 90%);
   border-radius: 50%;
   width: 158px;
   height: 158px;
@@ -35,6 +34,7 @@ body {
 }
 
 .profile-header .pic img {
+  margin-left: 15em;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -125,5 +125,15 @@ body {
 
 .profile-header .profile-resume p {
   margin-left: 2.75em;
+}
+
+.profile-header .profile-links p, .profile-header .profile-links a {
+  margin-left: 2.75em;
+}
+
+.profile-header .profile-links a {
+  text-decoration: none;
+  color: #003569;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
