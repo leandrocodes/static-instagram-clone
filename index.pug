@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        link(rel="stylesheet", href="assets/style.css")
-        title Instagram - Leandro Viana
-    body
-        .main-container
-            header.profile-header
-                .pic
-                    img(src="assets/images/bjblacklogo.jpg", alt="", srcset="")
-                .profile-actions
-                    h1.profile-name barrett_jackson
-                    .buttons
-                        button.follow Seguindo
-                        button.down
-                            i.fas.fa-caret-down
-                        button.opt
-                            i.fas.fa-ellipsis-h
-
-        script(src="assets/awesome.js")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    link(rel="stylesheet" href="assets/style.css")
+    title Instagram - Leandro Viana
+  body
+    .main-container
+      header.profile-header
+        .pic
+          img(src="assets/images/bjblacklogo.jpg" alt="" srcset="")
+        .profile-details
+          .row
+            h1.profile-name barrett_jackson
+            .buttons
+              button.follow Seguindo
+              button.down
+                i.fas.fa-caret-down
+              button.opt
+                i.fas.fa-ellipsis-h
+          .profile-data
+            p
+              strong 6.968
+              | pulicações
+            p
+              strong 403mil
+              | seguidores
+            p
+              strong 101
+              | seguindo
+      script(src="assets/awesome.js")
