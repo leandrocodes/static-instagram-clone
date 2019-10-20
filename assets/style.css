@@ -72,6 +72,10 @@ body {
   white-space: nowrap;
 }
 
+.profile-header .profile-actions button:hover {
+  cursor: pointer;
+}
+
 .profile-header .profile-actions .down {
   padding: 0 5px;
 }
