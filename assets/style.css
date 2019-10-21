@@ -182,6 +182,10 @@ body {
   width: 300px;
 }
 
+.posts img:hover {
+  cursor: pointer;
+}
+
 .pic-detail {
   -webkit-animation: openModal .2s ease-in-out;
           animation: openModal .2s ease-in-out;
