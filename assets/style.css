@@ -179,11 +179,7 @@ body {
   grid-gap: 25px;
 }
 
-.posts .post:hover {
-  cursor: pointer;
-}
-
-.posts .post .post-image img {
+.posts img {
   width: 300px;
 }
 /*# sourceMappingURL=style.css.map */
