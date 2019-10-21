@@ -100,3 +100,24 @@ body
     grid-gap: 25px
     img
         width: 300px
+
+.pic-detail
+    transition: all .3s ease
+    position: absolute
+    top: 0
+    left: 0
+    height: 100vh
+    width: 100vw
+    background-color: rgba(0, 0, 0, 0.85)
+    z-index: 10
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+        max-height: 100%
+        max-width: 100%
+    &.hidden
+        display: none
+
+.no-scroll
+    overflow: hidden
