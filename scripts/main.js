@@ -18,7 +18,6 @@ const onPostClick = event => {
   picDetail.classList.remove('hidden')
 
   const keyNav = e =>{
-    e = e || window.event
     let forward = Number(image.classList.value.split('pic')[1]) + 1
     let backward = Number(image.classList.value.split('pic')[1]) - 1
     if(e.key === 'ArrowRight'){
@@ -48,9 +47,7 @@ const onPostClick = event => {
       }
     }
   }
-
   document.onkeydown = keyNav
-
 }
 
 const onDetailsClick = () => {
