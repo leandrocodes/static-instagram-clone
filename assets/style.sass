@@ -75,6 +75,7 @@ body
             text-decoration: none
             color: #003569
             font-weight: bold
+            
     
 .tabs
     display: flex
@@ -91,3 +92,12 @@ body
             border-top: 1px solid #3f3f3f
         &:hover
             cursor: pointer
+
+.posts
+    display: grid
+    grid-template-columns: repeat(3, minmax(100px, 300px))
+    justify-content: center
+    grid-gap: 25px
+    .post-image
+        img
+            width: 300px

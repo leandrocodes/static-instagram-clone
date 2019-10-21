@@ -167,4 +167,19 @@ body {
 .tabs a:hover {
   cursor: pointer;
 }
+
+.posts {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 300px))[3];
+      grid-template-columns: repeat(3, minmax(100px, 300px));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 25px;
+}
+
+.posts .post-image img {
+  width: 300px;
+}
 /*# sourceMappingURL=style.css.map */
