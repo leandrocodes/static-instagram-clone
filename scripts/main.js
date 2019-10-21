@@ -15,6 +15,12 @@ const onPostClick = event => {
   picDetail.classList.remove('hidden')
 }
 
+const onDetailsClick = () => {
+  document.body.classList.remove('no-scroll')
+  picDetail.classList.add('hidden')
+  picDetail.innerHTML = ''
+}
+
 // Put pics into DOM
 for(pic in picList){
   const picSRC = picList[pic]
@@ -22,3 +28,5 @@ for(pic in picList){
   image.addEventListener('click', onPostClick)
   posts.appendChild(image)
 }
+
+picDetail.addEventListener('click', onDetailsClick)

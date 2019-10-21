@@ -184,8 +184,8 @@ body {
 }
 
 .pic-detail {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-animation: openModal .2s ease-in-out;
+          animation: openModal .2s ease-in-out;
   position: absolute;
   top: 0;
   left: 0;
@@ -215,5 +215,23 @@ body {
 
 .no-scroll {
   overflow: hidden;
+}
+
+@-webkit-keyframes openModal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openModal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */
