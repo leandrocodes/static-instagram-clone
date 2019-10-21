@@ -60,9 +60,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .profile-header .profile-details .row h1.profile-name {
@@ -232,6 +231,18 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .pic img {
+    margin-left: 35em !important;
+  }
+  .profile-resume p {
+    margin-left: 7em !important;
+  }
+  .profile-links p, .profile-links a {
+    margin-left: 7em !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
